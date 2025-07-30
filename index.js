@@ -1,9 +1,11 @@
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Welcome to LogiQuote</h1>
-      <p>This is a working JavaScript-only deployment. Let's build.</p>
-    </div>
-  );
-}
+app.get('/', (req, res) => {
+  res.send('LogiQuote App Deployed Successfully!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
