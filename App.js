@@ -2,9 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <h1>LogiQuote is live!</h1>
-      <p>Fast winning quotes, powered by the LogicSystem.</p>
+    <div style={{ padding: 40, fontSize: 24 }}>
+      <h1>🚀 LogiQuote is Live</h1>
+      <p>Enter a face amount, age, or condition to get fast winning quotes.</p>
     </div>
   );
 }
