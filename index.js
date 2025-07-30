@@ -1,11 +1,6 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-app.get('/', (req, res) => {
-  res.send('LogiQuote App Deployed Successfully!');
-});
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<React.StrictMode><App /></React.StrictMode>);
