@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Welcome to LogiQuote</h1>;
+  return (
+    <div style={{ padding: 40, fontSize: 24 }}>
+      <h1>Fast Winning Quotes — Powered by the Logic System</h1>
+    </div>
+  );
 }
