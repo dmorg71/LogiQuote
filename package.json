@@ -1,12 +1,1 @@
-{
-  "name": "logiquote-working",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "preview": "nuxi preview"
-  },
-  "dependencies": {
-    "nuxt": "^3.10.0"
-  }
-}
+// Placeholder for package.json
